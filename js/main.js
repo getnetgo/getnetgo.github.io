@@ -224,7 +224,7 @@ function WeightStatus1(val)
 function BackToHome(){
  // Rediirecting...
  setTimeout(function(){
-   window.location.replace("../index1.html");
+   window.location.replace("index1.html");
 }, 60000);
  
 }
