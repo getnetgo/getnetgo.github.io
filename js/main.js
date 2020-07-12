@@ -110,14 +110,6 @@ jQuery(document).ready(function(){
 	};
 });
 
-//<![CDATA[
-		$(window).on('load', function() { // makes sure the whole site is loaded 
-			$('#loader').fadeOut(); // will first fade out the loading animation 
-            $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
-            $('body').delay(350).css({'overflow':'visible'});
-		})
-	//]]>
-
 function YesStatus(val)
 {
     if(val==="Yes")
@@ -232,7 +224,7 @@ function WeightStatus1(val)
 function BackToHome(){
  // Rediirecting...
  setTimeout(function(){
-   window.location.replace("../index1.html");
+   window.location.replace("../index.html");
 }, 60000);
  
 }
@@ -245,3 +237,11 @@ function reply_click(element)
 	document.getElementById('ecom_name').value = element.getAttribute('data-ecom-name');
 	document.getElementById('port_name').value = element.getAttribute('data-port-name');
 }
+
+//<![CDATA[
+		$(window).on('load', function() { // makes sure the whole site is loaded 
+			$('#status').fadeOut(); // will first fade out the loading animation 
+            $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+            $('body').delay(350).css({'overflow':'visible'});
+		})
+	//]]>

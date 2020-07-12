@@ -240,7 +240,7 @@ body {
 	z-index:99; /* makes sure it stays on top */
 }
 
-#loader {
+#status {
 	width:200px;
 	height:200px;
 	position:absolute;
