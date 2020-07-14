@@ -221,14 +221,6 @@ function WeightStatus1(val)
        document.getElementById('weight other').style.display='none';   
 }
 
-function BackToHome(){
- // Rediirecting...
- setTimeout(function(){
-   window.location.replace("index1.html");
-}, 60000);
- 
-}
-
 function reply_click(element)
 {
     document.getElementById('design_name').value = element.getAttribute('data-design-name');
