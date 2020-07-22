@@ -237,3 +237,7 @@ function reply_click(element)
             $('body').delay(350).css({'overflow':'visible'});
 		})
 	//]]>
+	
+#<div id="preloader">
+	##<div id="loader">&nbsp;</div>
+###</div>
