@@ -232,8 +232,8 @@ function reply_click(element)
 
 //<![CDATA[
 		$(window).on('load', function() { // makes sure the whole site is loaded
-		$('#subscribe').fadeOut(); // will first fade out the loading animation 
+		$('#slideshow').fadeOut(); // will first fade out the loading animation 
             	$('#slideshow').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
-            	$('#subscribe').delay(350).css({'overflow':'visible'});
+            	$('#slideshow').delay(350).css({'overflow':'visible'});
 		})
 	//]]>
