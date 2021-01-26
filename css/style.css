@@ -224,11 +224,6 @@ Modal Window
   transition: opacity 0.3s 0s, visibility 0s 0s;
 }
 
-@charset "utf-8";
-body {
-	overflow: hidden;
-}
-
 /* Preloader */
 body {
   margin: 0;
