@@ -224,17 +224,40 @@ Modal Window
   transition: opacity 0.3s 0s, visibility 0s 0s;
 }
 
-@charset "utf-8";
+body {
+  margin: 0;
+}
+
+/* Iframe */
+iframe {
+  height:calc(100vh - 4px);
+  width:calc(100vw - 4px);
+  box-sizing: border-box;
+}
+
 body {
 	overflow: hidden;
 }
 
 /* Preloader */
-body {
-  margin: 0;
+#subscribe {
+	position: fixed;
+    	top:0;
+    	left:0;
+    	right:0;
+    	bottom:0;
+    	background-color:#000000; /* change if the mask should have another color then white */
+    	z-index:99;
 }
-iframe {
-  height:calc(100vh - 4px);
-  width:calc(100vw - 4px);
-  box-sizing: border-box;
+
+#status {
+	width:200px;
+	height:200px;
+	position:absolute;
+	left:50%; /* centers the loading animation horizontally on the screen */
+	top:50%; /* centers the loading animation vertically on the screen */
+	background-image:url(../img/loader.svg); /* path to your loading animation */
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:-100px 0 0 -100px; /* is width and height divided by two */
 }
