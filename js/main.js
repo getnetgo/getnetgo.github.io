@@ -110,6 +110,146 @@ jQuery(document).ready(function(){
 	};
 });
 
+function onButtonClick(plan)
+{
+for(var i=0; i<plan.answer.length; i++) {
+    if(plan.answer[i].checked) {
+       if (plan.answer[i].value == 'tesla')
+            setTimeout(function()
+            {Instamojo.open("https://imojo.in/teslapro");}
+            , 10000);
+       else if (plan.answer[i].value == 'teslah')
+            setTimeout(function()
+            {Instamojo.open("https://imojo.in/teslaproh");}
+            , 10000);
+       if (plan.answer[i].value == 'teslam')
+            setTimeout(function()
+            {Instamojo.open("https://imojo.in/teslaprom");}
+            , 10000);
+       else if (plan.answer[i].value == 'standard')
+	    		setTimeout(function()
+	    		{Instamojo.open("https://imojo.in/standardpro");}
+	    		, 10000);
+		 if (plan.answer[i].value == 'standardh')
+            setTimeout(function()
+            {Instamojo.open("https://imojo.in/standardproh");}
+            , 10000);
+		 else if (plan.answer[i].value == 'standardm')
+            setTimeout(function()
+            {Instamojo.open("https://imojo.in/standardprom");}
+            , 10000);
+		 if (plan.answer[i].value == 'standardas')
+            setTimeout(function()
+            {Instamojo.open("https://imojo.in/standardproas");}
+            , 10000);
+       else if (plan.answer[i].value == 'standardasm')
+            setTimeout(function()
+            {Instamojo.open("https://imojo.in/standardproasm");}
+            , 10000);
+       if (plan.answer[i].value == 'standardash')
+            setTimeout(function()
+            {Instamojo.open("https://imojo.in/standardproash");}
+            , 10000);
+		 else if (plan.answer[i].value == 'advance')
+            setTimeout(function()
+            {Instamojo.open("https://imojo.in/advancepro");}
+            , 10000);
+       if (plan.answer[i].value == 'advanceh')
+            setTimeout(function()
+            {Instamojo.open("https://imojo.in/advanceproh");}
+            , 10000);
+       else if (plan.answer[i].value == 'advancem')
+            setTimeout(function()
+            {Instamojo.open("https://imojo.in/advanceprom");}
+            , 10000);
+       if (plan.answer[i].value == 'advanceas')
+            setTimeout(function()
+            {Instamojo.open("https://imojo.in/advanceproas");}
+            , 10000);
+       else if (plan.answer[i].value == 'advanceasm')
+            setTimeout(function()
+            {Instamojo.open("https://imojo.in/advanceproasm");}
+            , 10000);
+       if (plan.answer[i].value == 'advanceash')
+            setTimeout(function()
+            {Instamojo.open("https://imojo.in/advanceproash");}
+            , 10000);
+       else if (plan.answer[i].value == 'premium')
+	    		setTimeout(function()
+	    		{Instamojo.open("https://imojo.in/premiumpro");}
+	    		, 10000);
+		 if (plan.answer[i].value == 'premiumm')
+	    		setTimeout(function()
+	    		{Instamojo.open("https://imojo.in/premiumprom");}
+	    		, 10000);
+		 else if (plan.answer[i].value == 'premiumh')
+	    		setTimeout(function()
+	    		{Instamojo.open("https://imojo.in/premiumproh");}
+	    		, 10000);
+		 if (plan.answer[i].value == 'premiumas')
+            setTimeout(function()
+            {Instamojo.open("https://imojo.in/premiumproas");}
+            , 10000);
+       else if (plan.answer[i].value == 'premiumasm')
+            setTimeout(function()
+            {Instamojo.open("https://imojo.in/premiumproasm");}
+            , 10000);
+       if (plan.answer[i].value == 'premiumash')
+            setTimeout(function()
+            {Instamojo.open("https://imojo.in/premiumproash");}
+            , 10000);
+		 else if (plan.answer[i].value == 'super')
+            setTimeout(function()
+            {Instamojo.open("https://imojo.in/superpro");}
+            , 10000);
+       if (plan.answer[i].value == 'superm')
+            setTimeout(function()
+            {Instamojo.open("https://imojo.in/superprom");}
+            , 10000);
+       else if (plan.answer[i].value == 'superh')
+            setTimeout(function()
+            {Instamojo.open("https://imojo.in/superproh");}
+            , 10000);
+       if (plan.answer[i].value == 'ultimate')
+	    		setTimeout(function()
+	    		{Instamojo.open("https://imojo.in/ultimatepro");}
+	    		, 10000);
+	    else if (plan.answer[i].value == 'ultimatem')
+	    		setTimeout(function()
+	    		{Instamojo.open("https://imojo.in/ultimateprom");}
+	    		, 10000);
+	    if (plan.answer[i].value == 'ultimateh')
+	    		setTimeout(function()
+	    		{Instamojo.open("https://imojo.in/ultimateproh");}
+	    		, 10000);
+		 else if (plan.answer[i].value == 'vps')
+            setTimeout(function()
+            {Instamojo.open("https://imojo.in/vpspro");}
+            , 10000);
+       if (plan.answer[i].value == 'vpsm')
+            setTimeout(function()
+            {Instamojo.open("https://imojo.in/vpsprom");}
+            , 10000);
+       else if (plan.answer[i].value == 'vpsh')
+            setTimeout(function()
+            {Instamojo.open("https://imojo.in/vpsproh");}
+            , 10000);
+       if (plan.answer[i].value == 'dedicated')
+	    		setTimeout(function()
+	    		{Instamojo.open("https://imojo.in/dedicatedpro");}
+	    		, 10000);
+	    if (plan.answer[i].value == 'dedicatedm')
+	    		setTimeout(function()
+	    		{Instamojo.open("https://imojo.in/dedicatedprom");}
+	    		, 10000);
+	    if (plan.answer[i].value == 'dedicatedh')
+	    		setTimeout(function()
+	    		{Instamojo.open("https://imojo.in/dedicatedproh");}
+	    		, 10000);            
+        }
+    }
+}
+
 function YesStatus(val)
 {
     if(val==="Yes")
@@ -223,17 +363,19 @@ function WeightStatus1(val)
 
 function reply_click(element)
 {
-    document.getElementById('design_name').value = element.getAttribute('data-design-name');
+   document.getElementById('biodata_name').value = element.getAttribute('data-biodata-name');
+   document.getElementById('resume_name').value = element.getAttribute('data-resume-name');
 	document.getElementById('business_name').value = element.getAttribute('data-business-name');
 	document.getElementById('flash_name').value = element.getAttribute('data-flash-name');
 	document.getElementById('ecom_name').value = element.getAttribute('data-ecom-name');
 	document.getElementById('port_name').value = element.getAttribute('data-port-name');
+	document.getElementById('demo_name').value = element.getAttribute('data-demo-name');
 }
 
 //<![CDATA[
 		$(window).load(function() { // makes sure the whole site is loaded
-            	$('#status').delay(3).fadeOut('slow'); // will first fade out the loading animation
-            	$('#subscribe').delay(369).fadeOut('slow'); // will fade out the white DIV that covers the website.
-            	$('body').delay(9).css({'overflow':'visible'});
+            	$('#slideshow').delay(9000).fadeTo("slow"); // will first delayed the loading animation for 09 seconds & fade to
+            	$('#subscribe').delay(30000).fadeOut(6000); // will first delayed the subscribe iframe for 30 seconds & fade out it within 6 seconds that covers the website.
+            	$('body').delay(0).css({'overflow':'visible'});
         })
 	//]]>
