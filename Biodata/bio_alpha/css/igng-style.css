@@ -1,8 +1,8 @@
 /*
 
-Alpha Template
+Alpha Biodata
 
-https://templatemo.com/tm-465-alpha
+https://getnetgo.co.in
 
 */
 
@@ -152,7 +152,111 @@ a:hover { text-decoration: none; }
   width: auto;
 }
 
-/* home section */  
+/* home section */
+.tm-mat {
+  background: url('../images/mat-bg.jpg') no-repeat center center;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 120px;
+  padding-bottom: 150px;
+}
+.tm-mat .btn {
+  background: #ffffff;
+  -webkit-box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+          box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: bold;
+  width: 140px;
+  height: 60px;
+  margin-top: 60px;
+  padding: 20px 20px;
+  -webkit-transition: all 0.4s ease-in-out;
+          transition: all 0.4s ease-in-out;
+}
+.tm-mat .btn:hover { background: #a4c639; }
+
+.tm-emp {
+  background: url('../images/emp-bg.jpg') no-repeat center center;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 120px;
+  padding-bottom: 150px;
+}
+.tm-emp .btn {
+  background: #ffffff;
+  -webkit-box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+          box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: bold;
+  width: 140px;
+  height: 60px;
+  margin-top: 60px;
+  padding: 20px 20px;
+  -webkit-transition: all 0.4s ease-in-out;
+          transition: all 0.4s ease-in-out;
+}
+.tm-emp .btn:hover { background: #a4c639; }
+
+.tm-stu {
+  background: url('../images/stu-bg.jpg') no-repeat center center;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 120px;
+  padding-bottom: 150px;
+}
+.tm-stu .btn {
+  background: #ffffff;
+  -webkit-box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+          box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: bold;
+  width: 140px;
+  height: 60px;
+  margin-top: 60px;
+  padding: 20px 20px;
+  -webkit-transition: all 0.4s ease-in-out;
+          transition: all 0.4s ease-in-out;
+}
+.tm-stu .btn:hover { background: #a4c639; }
+
+.tm-biz {
+  background: url('../images/biz-bg.jpg') no-repeat center center;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 120px;
+  padding-bottom: 150px;
+}
+.tm-biz .btn {
+  background: #ffffff;
+  -webkit-box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+          box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: bold;
+  width: 140px;
+  height: 60px;
+  margin-top: 60px;
+  padding: 20px 20px;
+  -webkit-transition: all 0.4s ease-in-out;
+          transition: all 0.4s ease-in-out;
+}
+.tm-biz .btn:hover { background: #a4c639; }
+  
 .tm-home {
   background: url('../images/home-bg.jpg') no-repeat center center;
   background-size: cover;

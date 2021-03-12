@@ -1,8 +1,8 @@
 /* 
 
-Avalon Template 
+Avalon Resume 
 
-https://templatemo.com/tm-513-avalon
+https://getnetgo.co.in
 
 */
 
@@ -112,6 +112,203 @@ p {
 }
 
 .left-banner-content .white-border-button {
+	margin-top: 52px;
+}
+
+.mat .col-md-8 {
+	padding-left: 0px;
+	padding-right: 5px;
+}
+
+.mat .col-md-4 {
+	padding-right: 0px;
+	padding-left: 5px;
+}
+
+
+.mat .left-banner-content {
+	padding-top: 175px;
+	padding-bottom: 175px;
+	padding-left: 120px;
+	text-align: left;
+	background-image: url(../img/mat-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 680px;
+	height: 680px;
+}
+
+.left-mat-content h6 {
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.left-mat-content h1 {
+
+	font-size: 64px;
+	font-weight: 300;
+	color: #fff;
+	line-height: 70px;
+}
+
+.left-mat-content .line-dec {
+	width: 60px;
+	height: 3px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	background-color: #f4bc51;
+}
+
+.left-mat-content .white-border-button {
+	margin-top: 52px;
+}
+
+.emp .col-md-8 {
+	padding-left: 0px;
+	padding-right: 5px;
+}
+
+.emp .col-md-4 {
+	padding-right: 0px;
+	padding-left: 5px;
+}
+
+
+.emp .left-banner-content {
+	padding-top: 175px;
+	padding-bottom: 175px;
+	padding-left: 120px;
+	text-align: left;
+	background-image: url(../img/emp-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 680px;
+	height: 680px;
+}
+
+.left-emp-content h6 {
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.left-emp-content h1 {
+	font-size: 64px;
+	font-weight: 300;
+	color: #fff;
+	line-height: 70px;
+}
+
+.left-emp-content .line-dec {
+	width: 60px;
+	height: 3px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	background-color: #f4bc51;
+}
+
+.left-emp-content .white-border-button {
+	margin-top: 52px;
+}
+
+.stu .col-md-8 {
+	padding-left: 0px;
+	padding-right: 5px;
+}
+
+.stu .col-md-4 {
+	padding-right: 0px;
+	padding-left: 5px;
+}
+
+
+.stu .left-banner-content {
+	padding-top: 175px;
+	padding-bottom: 175px;
+	padding-left: 120px;
+	text-align: left;
+	background-image: url(../img/stu-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 680px;
+	height: 680px;
+}
+
+.left-stu-content h6 {
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.left-stu-content h1 {
+	font-size: 64px;
+	font-weight: 300;
+	color: #fff;
+	line-height: 70px;
+}
+
+.left-stu-content .line-dec {
+	width: 60px;
+	height: 3px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	background-color: #f4bc51;
+}
+
+.left-stu-content .white-border-button {
+	margin-top: 52px;
+}
+
+.biz .col-md-8 {
+	padding-left: 0px;
+	padding-right: 5px;
+}
+
+.biz .col-md-4 {
+	padding-right: 0px;
+	padding-left: 5px;
+}
+
+
+.biz .left-banner-content {
+	padding-top: 175px;
+	padding-bottom: 175px;
+	padding-left: 120px;
+	text-align: left;
+	background-image: url(../img/biz-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 680px;
+	height: 680px;
+}
+
+.left-biz-content h6 {
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.left-biz-content h1 {
+	font-size: 64px;
+	font-weight: 300;
+	color: #fff;
+	line-height: 70px;
+}
+
+.left-biz-content .line-dec {
+	width: 60px;
+	height: 3px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	background-color: #f4bc51;
+}
+
+.left-biz-content .white-border-button {
 	margin-top: 52px;
 }
 
@@ -467,6 +664,80 @@ p {
 
 
 
+.mat {
+	margin-top: 10px;	
+}
+
+.mat .col-md-8 {
+	padding-left: 5px;
+	padding-right: 0px;
+}
+
+.mat .col-md-4 {
+	padding-right: 5px;
+	padding-left: 0px;
+}
+
+.mat-image {
+	text-align: center;
+	background-image: url(../img/mat-left-image.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 600px;
+	height: 600px;
+
+}
+
+.emp-biz {
+	margin-top: 10px;	
+}
+
+.emp-biz .col-md-8 {
+	padding-left: 5px;
+	padding-right: 0px;
+}
+
+.emp-biz .col-md-4 {
+	padding-right: 5px;
+	padding-left: 0px;
+}
+
+.emp-biz-image {
+	text-align: center;
+	background-image: url(../img/emp-biz-left-image.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 600px;
+	height: 600px;
+
+}
+
+.stu {
+	margin-top: 10px;	
+}
+
+.stu .col-md-8 {
+	padding-left: 5px;
+	padding-right: 0px;
+}
+
+.stu .col-md-4 {
+	padding-right: 5px;
+	padding-left: 0px;
+}
+
+.stu-image {
+	text-align: center;
+	background-image: url(../img/stu-left-image.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 600px;
+	height: 600px;
+
+}
 
 .testimonial {
 	margin-top: 10px;	
