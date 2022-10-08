@@ -45,7 +45,7 @@
 					<a href="#" class="nav-link active" data-filter="*">All Categories</a>
 				</li>
 				<li class="nav-item">
-					<a href="#" class="nav-link" data-filter=".biodata">Digital Biodata</a>
+					<a href="#" class="nav-link" id="button1" data-filter=".biodata">Digital Biodata</a>
 				</li>
 				<li class="nav-item">
 					<a href="#" class="nav-link" data-filter=".resume">Digital Resume</a>
@@ -66,7 +66,7 @@
 					<a href="#" class="nav-link" data-filter=".music">Music Streaming</a>
 				</li>
 				<li class="nav-item">
-					<a href="#" class="nav-link" data-filter=".ecommerce">E-commerce</a>
+					<a href="#" class="nav-link" id="button2" data-filter=".ecommerce">E-commerce</a>
 				</li>
 				<li class="nav-item">
 					<a href="#" class="nav-link" data-filter=".business">Business & Corporate</a>
@@ -4038,5 +4038,20 @@
 <script src="../../asset/js/isotope.pkgd.min.js"></script>
 <script src="../../asset/js/script.js"></script>
 <script src="../../assets/formoid/formoid.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+$(document).ready(function() {
+	var queryString = window.location.search,
+	urlParams = new URLSearchParams(queryString);
+  
+  if (urlParams.has('ecom') === true) {
+  	$("#button1").trigger('click');
+  }
+
+  if (urlParams.has('bio') === true) {
+  	$("#button2").trigger('click');
+  }
+});
+</script>
 </body>
 </html>
